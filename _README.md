@@ -1,10 +1,12 @@
 # Portfolio
+
 [Online CV](cv/index.html)
 
 # Current Projects
+
 [APT Mobile app](projects/APTMobile.html) 📲
 
-[AutoPilot](https://autopilot.startyourbusiness.au) 🚙
+[AutoPilot](https://autopilot.ml1.app) 🚙
 
 [Strategic Property Flipping in Ermington](https://dub.sh/ermington) 🏡
 
@@ -14,7 +16,6 @@
 
 🤖 [Running your own local AI server](projects/Local_AI_Server.md)
 
-🔐 [Secure-GPT Agent (April 2024)](projects/SecureAI.md) 
+🔐 [Secure-GPT Agent (April 2024)](projects/SecureAI.md)
 
 🙉 [Professional AI Headshots in minutes](https://ml1.app)
-
