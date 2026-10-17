@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Marlon R. Santos</title>
+    <meta name="description" content="Privacy policy for the Gmail Categorizer application and marlsantos.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --matrix-green: #00FF41;
+            --matrix-green-muted: #2AE600;
+            --matrix-green-dark: #008F11;
+            --deep-green: #003B00;
+            --dark-bg: #000000;
+            --dark-gray: #1A1A1A;
+            --medium-gray: #4F4F4F;
+            --light-gray: #CCCCCC;
+            --highlight: #FFFFFF;
+            --code-green: #4CAF50;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: var(--dark-bg);
+            color: var(--light-gray);
+            font-family: 'Courier Prime', 'Courier New', monospace;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+        .terminal {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--dark-gray);
+            border: 1px solid var(--matrix-green-dark);
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 0 30px rgba(0, 255, 65, 0.1);
+        }
+        h1 {
+            font-family: 'Source Code Pro', monospace;
+            color: var(--matrix-green);
+            font-size: 1.8rem;
+            text-shadow: 0 0 8px rgba(0, 255, 65, 0.5);
+            border-bottom: 2px solid var(--matrix-green-dark);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            font-family: 'Source Code Pro', monospace;
+            color: var(--matrix-green-muted);
+            font-size: 1.15rem;
+            margin: 1.5rem 0 0.5rem 0;
+        }
+        p, li { margin-bottom: 0.75rem; }
+        ul { margin: 0.5rem 0 0.75rem 1.5rem; }
+        a { color: var(--matrix-green); text-decoration: none; }
+        a:hover { text-shadow: 0 0 8px var(--matrix-green); }
+        .prompt::before { content: '> '; color: var(--matrix-green); }
+        .updated { color: var(--medium-gray); font-size: 0.85rem; margin-bottom: 1.5rem; }
+        strong { color: var(--highlight); }
+        code {
+            color: var(--code-green);
+            background: rgba(0, 255, 65, 0.08);
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Source Code Pro', monospace;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: var(--medium-gray);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <h1>// PRIVACY_POLICY</h1>
+        <p class="updated">Last updated: 17 October 2026</p>
+
+        <p class="prompt"><strong>Overview</strong></p>
+        <p>This privacy policy covers the <strong>Gmail Categorizer</strong> application and the website <strong>marlsantos.com</strong>, operated by Marlon Santos ("I", "me"). Contact: <a href="mailto:marlonsantos.au@gmail.com">marlonsantos.au@gmail.com</a>.</p>
+
+        <h2>1. Gmail Categorizer Application</h2>
+        <p>The Gmail Categorizer is a personal automation tool that connects to my own Gmail account to organize my inbox.</p>
+        <ul>
+            <li><strong>Data accessed:</strong> Email metadata (subject lines, message snippets, label assignments) from my own Gmail account via the Gmail API, using the <code>gmail.modify</code> scope.</li>
+            <li><strong>What it does:</strong> Reads subject lines and snippets of uncategorized emails, sends them to the Google Gemini API for classification, and applies category labels within Gmail.</li>
+            <li><strong>Data storage:</strong> Gmail data is not stored, transferred, or archived anywhere outside my own Gmail account and the application's local authentication token. Email content is transmitted only to Google's Gemini API for classification and is not retained by the application.</li>
+            <li><strong>Data sharing:</strong> No Gmail data is sold, shared with third parties (other than Google's own APIs), or used for advertising. No data is used to train machine-learning or AI models.</li>
+            <li><strong>Human review:</strong> No humans review Gmail data. Processing is fully automated, initiated only by me.</li>
+            <li><strong>Access revocation:</strong> Access can be revoked at any time via your Google Account settings (Privacy &amp; Personalization → Security → Third-party apps with account access).</li>
+        </ul>
+
+        <h2>2. Website (marlsantos.com)</h2>
+        <ul>
+            <li><strong>Analytics:</strong> This site uses Google Analytics to collect anonymous usage statistics (pages visited, approximate location, browser type). No personally identifying information is collected or stored by me.</li>
+            <li><strong>Cookies:</strong> Google Analytics sets cookies solely for aggregate analytics purposes.</li>
+        </ul>
+
+        <h2>3. Your Rights</h2>
+        <p>You may contact me at <a href="mailto:marlonsantos.au@gmail.com">marlonsantos.au@gmail.com</a> with any questions about this policy or requests regarding your personal information.</p>
+
+        <h2>4. Changes to This Policy</h2>
+        <p>Any changes will be posted on this page with an updated revision date.</p>
+
+        <footer>marlsantos.com // secure_channel://privacy</footer>
+    </div>
+</body>
+</html>
